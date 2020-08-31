@@ -1,0 +1,72 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@600&display=swap');
+
+html, body{
+	padding:20px 0;
+	margin:0;
+	background:white;
+	background-image:radial-gradient(#FFF, #E1E1E1);
+	width:100vw;
+	height:100vh;
+	display:table-cell;
+	vertical-align:middle;
+}
+
+#blob, button{
+	margin:auto;
+	display:block;
+}
+
+#blob{
+	position:relative;
+	width:300px;
+	height:300px;
+	/*debug - background-color:red;*/
+	border-radius:50%;
+	overflow:hidden;
+}
+
+button{
+	margin-top:80px;
+	border-radius:6px;
+	background-color:transparent;
+	border:4px solid #3F3D56;
+	font-family:"Exo", Arial, sans-serif;
+	font-size:20px;
+	font-weight:600;
+	padding:10px 20px;
+	outline:none;
+	color:#3F3D56;cursor:pointer;
+}
+
+button:active{
+	color:#6C63FF;
+	border-color:#6C63FF;
+	transform:rotate(0.1deg) scale(0.9);
+	transform-origin:50% 100%;
+}
+
+/*animation and anti-aliasing*/
+#blob, #image, button{
+	transition:all ease 1s;
+	box-shadow:0 0 0 1px rgba(0,0,0,0);
+}
+
+#blob, #image{
+	transition-property:border-radius, transform;
+	transition-duration:1s,1s; /*2,1*/
+}
+
+#image{
+	position:absolute;
+	left:50%;
+	top:50%;
+	width:400px;
+	height:400px;
+	transform:translate(-50%,-50%) rotate(var(--r, 0deg));
+  background-color:#3F3D56;
+  background-image:url('assets/hero.png');
+	background-image:url('https://github.com/Shadow-Scientist/BlobMaker/raw/master/assets/hero.png');
+	background-position:center;
+	background-size:340px auto;
+}
