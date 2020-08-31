@@ -1,6 +1,6 @@
 # CSS Blob Maker
 <p align="center">
-  <IMG SRC="./assets/awesome!.gif" ALT="See the Awesome in Action!" width="400px" height="300px"/><br>
+  <IMG SRC="./assets/awesome!.gif" ALT="See the Awesome in Action!" width="400px" height="300px" style="border-radius:6px"/><br>
   Create organic CSS shapes in less effort! 😄
 </p>
 
@@ -17,9 +17,9 @@ To prove -<br>
 “The Image is set round just by using the well-supported border-radius. Don’t forget that old CSS still exists and is useful. You don’t need to use something fancy for every effect.” — Rachel Andrew
 
 ### News!
-I'm going to release a tutorial of this project! Here is the poster (thumbnail, I guess) —
+I'm going to release a tutorial of this project! Here is the poster (thumbnail, I guess) —<br><br>
 <p align="center">
-  <IMG SRC="./assets/folder.png" ALT="See the Awesome in Action!" width="90%"/>
+  <IMG SRC="./assets/folder.png" ALT="See the Awesome in Action!" width="90%" style="border-radius:6px"/>
 </p>
 <br>
 Find it on Youtube: <a href="shadow-scientist.github.io/youtube">Shadow Scientist</a>
