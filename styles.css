@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@600&display=swap');
 
 html, body{
-	padding:20px 0;
+	padding:0;
 	margin:0;
 	background:white;
 	background-image:radial-gradient(#FFF, #E1E1E1);
