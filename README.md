@@ -1,8 +1,8 @@
 # CSS Blob Maker
 <p align="center">
   <IMG SRC="./assets/awesome!.gif" ALT="See the Awesome in Action!" width="400px" height="300px" style="border-radius:6px"/><br>
-  Create organic CSS shapes in less effort! 😄
-</p>
+  Create organic CSS shapes in less effort! 😄<br>
+</p><br>
 
 Did you know blobs were born in 2017? It's been 3 years there is a positive impact on UI/UX since designers started using blobs in their designs, clients are really happy with their work, their sense of design. Without the organic shapes placed around the design might kill the design itself. The blobs are great!
 
